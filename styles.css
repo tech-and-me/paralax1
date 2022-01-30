@@ -1,17 +1,14 @@
 * {
   margin: 0;
   font-size: 1.2rem;
-  /* background-color: rgb(39, 24, 31); */
-  /* color: white; */
+  background-color: rgb(223, 217, 217);
 }
 
 .hero {
   background: rgba(51, 51, 53, 0.4);
   padding: 40px 30px;
-  /* opacity: 0.2; */
   color: white;
   text-align: center;
-  /* opacity: 0.7; */
   width: 550px;
   backdrop-filter: blur(2px);
 }
@@ -19,14 +16,15 @@
 .hero h1 {
   font-size: 1.8rem;
   text-transform: uppercase;
+  background-color: transparent;
 }
 
 .hero p {
   font-style: italic;
+  background-color: transparent;
 }
 
 .img1 {
-  /* padding-top: 100px; */
   width: 100vw;
   height: 100vh;
   background: url(./assets/angkor-thom-gc42870ec7_1280.jpg) no-repeat center
@@ -42,7 +40,6 @@
 .img2 {
   width: 100vw;
   height: 100vh;
-  /* background: url(./assets/florian-hahn-mcEfqFoxQ40-unsplash.jpg) no-repeat center center; */
   background: url(./assets/angkor-wat-cambodia.jpg) no-repeat center center;
   background-size: cover;
 }
@@ -62,7 +59,6 @@
 }
 
 h2 {
-  /* padding: 2rem; */
   padding-bottom: 0;
   font-size: 1.5rem;
   width: 80%;
@@ -70,7 +66,6 @@ h2 {
 }
 
 article {
-  /* padding: 2rem; */
   width: 80%;
   margin: 2rem auto;
 }
@@ -90,10 +85,11 @@ article {
   position: absolute;
   bottom: 50px;
   font-weight: bolder;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   transform: rotate(90deg);
   animation: go-down 1s infinite ease-out;
+  background-color: transparent;
 }
 
 @keyframes go-down {
@@ -107,22 +103,20 @@ article {
 }
 
 .title {
-  background: rgb(51, 51, 53);
+  background: rgba(51, 51, 53,0.3);
   padding: 1rem 2rem;
   border-radius: 5px;
   text-transform: uppercase;
   letter-spacing: 1rem;
   font-weight: bold;
-  opacity: 0.5;
   color: white;
+  backdrop-filter: blur(3px);
+  font-size: 0.8rem;
 }
 
 .img3 .title,
 .img4 .title {
-  background: rgb(15, 15, 15);
-  opacity: 0.7;
+  background: rgba(15, 15, 15,0.5);
+  backdrop-filter: blur(3px);
 }
 
-/* section{
-    background-color: darkgrey;
-} */
