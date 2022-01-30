@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  font-size: 1.2rem;
+  /* background-color: rgb(39, 24, 31); */
+  /* color: white; */
+}
+
+.hero {
+  background: rgba(51, 51, 53, 0.4);
+  padding: 40px 30px;
+  /* opacity: 0.2; */
+  color: white;
+  text-align: center;
+  /* opacity: 0.7; */
+  width: 550px;
+  backdrop-filter: blur(2px);
+}
+
+.hero h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.hero p {
+  font-style: italic;
+}
+
+.img1 {
+  /* padding-top: 100px; */
+  width: 100vw;
+  height: 100vh;
+  background: url(./assets/angkor-thom-gc42870ec7_1280.jpg) no-repeat center
+    center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.img2 {
+  width: 100vw;
+  height: 100vh;
+  /* background: url(./assets/florian-hahn-mcEfqFoxQ40-unsplash.jpg) no-repeat center center; */
+  background: url(./assets/angkor-wat-cambodia.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.img3 {
+  width: 100vw;
+  height: 100vh;
+  background: url(./assets/templeSmall.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.img4 {
+  width: 100vw;
+  height: 100vh;
+  background: url(./assets/lotus-g03ef0c0e1_1280.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+h2 {
+  /* padding: 2rem; */
+  padding-bottom: 0;
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+article {
+  /* padding: 2rem; */
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.img2,
+.img3,
+.img4 {
+  width: 100vw;
+  height: 60vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 50px;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: white;
+  transform: rotate(90deg);
+  animation: go-down 1s infinite ease-out;
+}
+
+@keyframes go-down {
+  0% {
+    bottom: 100px;
+  }
+
+  100% {
+    bottom: 10px;
+  }
+}
+
+.title {
+  background: rgb(51, 51, 53);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  font-weight: bold;
+  opacity: 0.5;
+  color: white;
+}
+
+.img3 .title,
+.img4 .title {
+  background: rgb(15, 15, 15);
+  opacity: 0.7;
+}
+
+/* section{
+    background-color: darkgrey;
+} */
